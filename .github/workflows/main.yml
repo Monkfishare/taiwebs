@@ -1,0 +1,32 @@
+name: Taiwebs RSS
+
+on:
+  schedule:
+    - cron: '20 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          pip install seleniumbase pyautogui beautifulsoup4 lxml
+          sudo apt-get install python3-tk python3-dev
+      - name: Install Chrome
+        run: sudo apt-get install google-chrome-stable
+      - name: Setup ChromeDriver
+        run: seleniumbase install chromedriver
+      - name: Run tests
+        run: |
+          python main.py
+          python clean.py
+      - name: Commit and push results
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add rss.xml
+          git commit -m "Initial commit"
+          git push
