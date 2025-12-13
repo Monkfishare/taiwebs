@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns="" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"><channel><title>Download free software, update daily!</title><description>
 Taiwebs.com - Download free software applications, full version, latest updates!
-</description><pubDate>Sat, 13 Dec 2025 19:58:44 +0700</pubDate><lastBuildDate>Sat, 13 Dec 2025 19:58:44 +0700</lastBuildDate><generator>Download free software, update daily!</generator><link>https://en.taiwebs.com/</link><atom:link href="https://en.taiwebs.com/sitemap/index.rss" rel="self" type="application/rss+xml"/><item><title>Download Universal Media Server 15.2.0</title><pubDate> Sat, 13 Dec 2025 17:21:49 +0700 </pubDate><link>https://en.taiwebs.com/windows/download-universal-media-server-2364.html</link><guid>
+</description><pubDate>Sat, 13 Dec 2025 21:33:41 +0700</pubDate><lastBuildDate>Sat, 13 Dec 2025 21:33:41 +0700</lastBuildDate><generator>Download free software, update daily!</generator><link>https://en.taiwebs.com/</link><atom:link href="https://en.taiwebs.com/sitemap/index.rss" rel="self" type="application/rss+xml"/><item><title>Download NxFilter 4.7.4.2</title><pubDate> Sat, 13 Dec 2025 23:58:36 +0700 </pubDate><link>https://en.taiwebs.com/windows/download-nxfilter-50.html</link><guid>
+https://en.taiwebs.com/windows/download-nxfilter-50.html
+</guid><description>
+NxFilter is a server filter DNS have the ability to filter Internet traffic based on domain names and content types. In addition, it can use check package DNS to protect your network from malware and botnet activity.
+NxFilter is installed on a single computer, where it acts as a proxy server, DNS. To route Internet traffic through NxFilter, you will need to change the DNS settings on all the machines that you want to protect to use the IP address of the individual NxFilter (instead of the...
+</description></item><item><title>Download Universal Media Server 15.2.0</title><pubDate> Sat, 13 Dec 2025 17:21:49 +0700 </pubDate><link>https://en.taiwebs.com/windows/download-universal-media-server-2364.html</link><guid>
 https://en.taiwebs.com/windows/download-universal-media-server-2364.html
 </guid><description>
 Universal Media Server is a media server UPnP compatible multi-platform DLNA. The purpose of this software is to give you a chance to stabilize to make the exchange quick and convenient files necessary. Server the device supports the different output and facilitate the process of exchanging information between a computer and necessary equipment. The development is based on PS3 Media Server, which means you can interact with the Playstation 3, Xbox 360, as well as TV Samsung or...
@@ -135,9 +140,4 @@ https://en.taiwebs.com/windows/download-syncovery-pro-enterprise-232.html
 </guid><description>
 Syncovery Pro Enterprise is a great application used to back up data and to synchronize personal computers, servers, laptops, notepads and storage online. The software comes with support for FTP and secure FTP servers, SSH, WebDAV, Amazon S3, http, update the part file, ZIP compression, data encryption, and schedule automatic backups.
 Syncovery Pro Enterprise have the ability to freely select files and folders across the whole folder hierarchy in tree view and supports email...
-</description></item><item><title>Download Esri CityEngine 2025.1.11669</title><pubDate> Sat, 13 Dec 2025 16:56:43 +0700 </pubDate><link>https://en.taiwebs.com/windows/download-esri-cityengine-9985.html</link><guid>
-https://en.taiwebs.com/windows/download-esri-cityengine-9985.html
-</guid><description>
-Esri CityEngine is a powerful 3D urban planning and modeling software developed by Esri, a company known for geographic information systems technology ( GIS). CityEngine is designed to create, visualize, and analyze complex 3D urban environments, from entire cities to individual buildings. It is commonly used by urban planners, architects, game developers, and filmmakers to create realistic and detailed urban landscapes.
-Esri CityEngine is widely used in various industries to create...
 </description></item></channel></rss>
