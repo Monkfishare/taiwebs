@@ -19,6 +19,20 @@ jobs:
         run: sudo apt-get install google-chrome-stable
       - name: Setup ChromeDriver
         run: seleniumbase install chromedriver
+      - name: Install Xray
+        run: |
+          wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
+          unzip -o Xray-linux-64.zip
+          chmod +x xray
+      - name: Create Xray config
+        run: |
+          cat > config.json << 'EOF'
+          ${{ secrets.XRAY_CONFIG }}
+          EOF
+      - name: Start Xray
+        run: |
+          ./xray -c config.json &
+          sleep 5
       - name: Run tests
         run: |
           python main.py

@@ -1,6 +1,6 @@
 from seleniumbase import SB
 
-with SB(uc=True, test=True, locale="en") as sb:
+with SB(uc=True, test=True, locale="en", proxy="http://127.0.0.1:10808") as sb:
     url = "https://en.taiwebs.com/sitemap/index.rss"
     sb.activate_cdp_mode(url)
     sb.sleep(5)
